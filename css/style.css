@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 .texto-rojo { color:#d63031;}
@@ -36,6 +37,8 @@ body {
 
 
 
+
+
 /* media queries 480px*/
 @media(max-width: 480px){
   .header p {
@@ -54,8 +57,53 @@ body {
   .educacion {
     padding: 0 10px 0 20px;
   }
-   
-}
+
+  .experiencia {
+    padding: 0 10px 0 20px;
+  }
+
+  .contacto {
+    padding: 0 10px 0 20px;
+  }
+
+  .habilidades {
+    padding: 0 10px 0 20px;
+  }
+
+  .barra {
+  text-align: left;
+  padding-right: 20px;
+  line-height: 40px;
+  background-color: #b71540;
+  color: white;
+  }
+
+  .texto-barra {
+    padding: 4px;
+    font-weight: 700;
+  }
+
+  .barra-python {
+    width: 90%;
+  }
+
+  .barra-html {
+    width: 80%;
+  }
+
+  .barra-css {
+    width: 60%;
+  }
+
+  .barra-js {
+    width: 40%;
+  }
+
+  .barra-php {
+    width: 30%;
+  }
+
+
 
   
 }

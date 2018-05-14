@@ -1,6 +1,6 @@
 /*columnas grid
-.col-md-4, .col-md-5,
-.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
+.col-4, .col-5,
+.col-6, .col-7, .col-8, .col-9, .col-10
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
 .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-xs-12 {
   float: right;
@@ -23,40 +23,40 @@
 }
 
 @media(max-width: 480px){
-    .col-md-1 {
+  .col-1 {
     max-width: 8.333333%;
   }
-  .col-md-2 {
+  .col-2 {
     max-width: 16.666667%;
   }
-  .col-md-3 {
+  .col-3 {
     max-width: 25%;
   }
-  .col-md-4 {
+  .col-4 {
     max-width: 100%;
   }
-  .col-md-5 {
+  .col-5 {
     max-width: 41.666667%;
   }
-  .col-md-6 {
+  .col-6 {
     max-width: 50%;
   }
-  .col-md-7 {
+  .col-7 {
     max-width: 58.333333%;
   }
-  .col-md-8 {
+  .col-8 {
     max-width: 66.666667%;
   }
-  .col-md-9 {
+  .col-9 {
     max-width: 75%;
   }
-  .col-md-10 {
+  .col-10 {
     max-width: 83.333333%;
   }
-  .col-md-11 {
+  .col-11 {
     max-width: 91.666667%;
   }
-  .col-md-12 {
+  .col-12 {
     max-width: 100%;
   }
   .col-xs-12 {
@@ -65,40 +65,40 @@
 }
 /* media queries 481px*/
 @media(min-width: 481px){
-  .col-md-1 {
+  .col-1 {
     max-width: 8.333333%;
   }
-  .col-md-2 {
+  .col-2 {
     max-width: 16.666667%;
   }
-  .col-md-3 {
+  .col-3 {
     max-width: 25%;
   }
-  .col-md-4 {
+  .col-4 {
     max-width: 33.333333%;
   }
-  .col-md-5 {
+  .col-5 {
     max-width: 41.666667%;
   }
-  .col-md-6 {
+  .col-6 {
     max-width: 50%;
   }
-  .col-md-7 {
+  .col-7 {
     max-width: 58.333333%;
   }
-  .col-md-8 {
+  .col-8 {
     max-width: 66.666667%;
   }
-  .col-md-9 {
+  .col-9 {
     max-width: 75%;
   }
-  .col-md-10 {
+  .col-10 {
     max-width: 83.333333%;
   }
-  .col-md-11 {
+  .col-11 {
     max-width: 91.666667%;
   }
-  .col-md-12 {
+  .col-12 {
     max-width: 100%;
   }
 }
