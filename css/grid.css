@@ -7,6 +7,90 @@
   
 }*/
 
+.col-1 {
+    max-width: 8.333333%;
+  }
+  .col-2 {
+    max-width: 16.666667%;
+  }
+  .col-3 {
+    max-width: 25%;
+  }
+  .col-4 {
+    max-width: 100%;
+  }
+  .col-5 {
+    max-width: 41.666667%;
+  }
+  .col-6 {
+    max-width: 50%;
+  }
+  .col-7 {
+    max-width: 58.333333%;
+  }
+  .col-8 {
+    max-width: 66.666667%;
+  }
+  .col-9 {
+    max-width: 75%;
+  }
+  .col-10 {
+    max-width: 83.333333%;
+  }
+  .col-11 {
+    max-width: 91.666667%;
+  }
+  .col-12 {
+    max-width: 100%;
+  }
+  .col-xs-12 {
+    width:100%
+  }
+
+  .col-med-1 {
+    max-width: 8.333333%;
+  }
+  .col-med-2 {
+    max-width: 16.666667%;
+  }
+  .col-med-3 {
+    max-width: 25%;
+  }
+  .col-med-4 {
+    max-width: 33.333333%;
+  }
+  .col-med-5 {
+    max-width: 41.666667%;
+  }
+  .col-med-6 {
+    max-width: 50%;
+  }
+  .col-med-7 {
+    max-width: 58.333333%;
+  }
+  .col-med-8 {
+    max-width: 66.666667%;
+  }
+  .col-med-9 {
+    max-width: 75%;
+  }
+  .col-med-10 {
+    max-width: 83.333333%;
+  }
+  .col-med-11 {
+    max-width: 91.666667%;
+  }
+  .col-med-12 {
+    max-width: 100%;
+  }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -14,9 +98,7 @@
   max-width: 100%;
 }
 
-.row {
-  clear: both;
-}
+
 
 .img-responsive {
   max-width: 100%;
@@ -65,40 +147,40 @@
 }
 /* media queries 481px*/
 @media(min-width: 481px){
-  .col-1 {
+  .col-med-1 {
     max-width: 8.333333%;
   }
-  .col-2 {
+  .col-med-2 {
     max-width: 16.666667%;
   }
-  .col-3 {
+  .col-med-3 {
     max-width: 25%;
   }
-  .col-4 {
+  .col-med-4 {
     max-width: 33.333333%;
   }
-  .col-5 {
+  .col-med-5 {
     max-width: 41.666667%;
   }
-  .col-6 {
+  .col-med-6 {
     max-width: 50%;
   }
-  .col-7 {
+  .col-med-7 {
     max-width: 58.333333%;
   }
-  .col-8 {
+  .col-med-8 {
     max-width: 66.666667%;
   }
-  .col-9 {
+  .col-med-9 {
     max-width: 75%;
   }
-  .col-10 {
+  .col-med-10 {
     max-width: 83.333333%;
   }
-  .col-11 {
+  .col-med-11 {
     max-width: 91.666667%;
   }
-  .col-12 {
+  .col-med-12 {
     max-width: 100%;
   }
 }
