@@ -2,39 +2,57 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.texto-rojo { color:#d63031;}
+.texto-negro { color: #2d3436; }
+.texto-rojo-oscuro { color: #b71540; }
+
 .header p {
   text-align: center;
   font-size: 20px;
   font-weight: 700;
+  border-bottom: 3px solid #b2bec3;
+  padding-bottom: 20px;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
+.burbuja {
+  position: relative;
+  background: #dfe6e9;
+  border-radius: .3em;
+}
+ .burbuja:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 23px solid transparent;
+  border-right-color: #dfe6e9;
+  border-left: 0;
+  border-top: 0;
+  margin-top: -11.5px;
+  margin-left: -23px;
 }
 
-.row {
-  clear: both;
-}
 
-.img-responsive {
-  max-width: 100%;
-}
 
-/*columnas grid*/
-.col-md-4, .col-md-5,
-.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
-.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-xs-12 {
-  float: right;
-  
-}
 /* media queries 480px*/
 @media(max-width: 480px){
   .header p {
   font-size: 17px;
+  }
+
+  .burbuja {
+  padding: 10px;
+  max-width: 85%;
+  }
+
+   .acerca {
+    padding: 0 10px 0 20px;
+  }
+
+  .educacion {
+    padding: 0 10px 0 20px;
   }
    
 }
