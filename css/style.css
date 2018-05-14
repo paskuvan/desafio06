@@ -35,10 +35,9 @@ body {
 @media(max-width: 480px){
   .header p {
   font-size: 17px;
-}
+  }
    
 }
-/* media queries 481px*/
-@media(min-width: 481px){
+
   
 }
