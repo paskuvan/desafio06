@@ -105,8 +105,12 @@
 }
 
 @media(max-width: 480px){
+      .col-4 {
+        width: 100%;
+      }
+
+       .col-8 {
+        width: 100%;
+      }
+    }
   
-/* media queries 481px*/
-@media(max-width: 481px){
-  
-}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/grillas.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <title>Actividad 6</title>
 </head>
@@ -15,7 +15,7 @@
     <!--header -->
     <div class="header">
         <div class="row">
-            <div class="container col-12">
+            <div class="col-12">
                 <img src="images/avatar.png" class="center" alt="">
                 <p>HOLA MI NOMBRE ES <span style="color:#d63031;">MIGUEL</span> Y ESTE ES MI RESUMEN</p>
             </div>
@@ -23,121 +23,91 @@
     </div>
     <!--fin header-->
 
-    <!--acerca -->
-    <div class="acerca">
-        <div class="row">
-            <div class="container col-8">
-                <h2 class="texto-rojo">// ACERCA </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis amet praesentium tenetur, totam labore voluptatem! Ut placeat totam reiciendis, saepe voluptate sit corrupti rerum dignissimos, laboriosam aspernatur, architecto hic eius?</p>
-            </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="texto-rojo">// ACERCA </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis amet praesentium tenetur, totam labore voluptatem! Ut placeat totam reiciendis, saepe voluptate sit corrupti rerum dignissimos, laboriosam aspernatur, architecto hic eius?</p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="texto-rojo">// CONTACTO</h2>
+            <ul>
+                <li><b>Email:</b>me@aol.com</li>
+                <li><b>Skype:</b>miguel</li>
+                <li><b>Twitter:</b>Miguel</li>
+                <li><b>Facebook:</b>Miguel</li>
+            </ul>
         </div>
     </div>
-    <!-- fin acerca-->
 
-    <!--educacion -->
-    <div class="educacion">
-        <div class="row">
-            <div class="container col-8">
-                <h2 class="texto-rojo">// EDUCACIÓN</h2>
-                <h4>2012</h4>
-                <h5 class="burbuja">I WAS BORN IN SANTIAGO
-    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi assumenda debitis in iusto, enim tenetur facilis impedit.</p></h5>
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="texto-rojo">// EDUCACIÓN</h2>
+            <h4>2012</h4>
+            <h5 class="burbuja">I WAS BORN IN SANTIAGO
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi assumenda debitis in iusto, enim tenetur facilis impedit.</p></h5>
 
-                <h4>1986</h4>
-                <h5 class="burbuja">I WAS BORN IN SANTIAGO 
-    			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nesciunt, veniam. Accusantium architecto atque aut ad repellat.</p></h5>
-            </div>
+            <h4>1986</h4>
+            <h5 class="burbuja">I WAS BORN IN SANTIAGO 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nesciunt, veniam. Accusantium architecto atque aut ad repellat.</p></h5>
         </div>
-    </div>
-    <!--fin educacion -->
-
-    <!--experiencia -->
-    <div class="experiencia">
-        <div class="row">
-            <div class="container col-8">
-                <h2 class="texto-rojo">// EXPERIENCIA</h2>
-                <h2><strong>Google</strong></h2>
-                <h5>2013 - 2014</h5>
-                <h5><strong>Frontend developer / php programmer</strong></h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id tempore debitis beatae nemo hic, perspiciatis voluptatem inventore. Officia cum pariatur harum, natus modi saepe quasi expedita dolor repellendus, ratione fugit.</p>
-
-                <h2><strong>Google</strong></h2>
-                <h5>2013 - 2014</h5>
-                <h5><strong>Frontend developer / php programmer</strong></h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id tempore debitis beatae nemo hic, perspiciatis voluptatem inventore. Officia cum pariatur harum, natus modi saepe quasi expedita dolor repellendus, ratione fugit.</p>
+        <div class="col-md-6">
+            <h2 class="texto-rojo">// SKILLS</h2>
+            <div class="barra barra-python">
+                <p class="texto-barra">PYTHON</p>
             </div>
-        </div>
-    </div>
-    <!--fin experiencia -->
-
-    <!--contacto-->
-    <div class="contacto">
-        <div class="row">
-            <div class="container col-8">
-                <h2 class="texto-rojo">// CONTACTO</h2>
-                <ul>
-                    <li><b>Email:</b>me@aol.com</li>
-                    <li><b>Skype:</b>miguel</li>
-                    <li><b>Twitter:</b>Miguel</li>
-                    <li><b>Facebook:</b>Miguel</li>
-                </ul>
+            <div class="barra barra-html">
+                <p class="texto-barra">HTML</p>
             </div>
-        </div>
-    </div>
-    <!--fin contacto-->
-
-    <!--habilidades-->
-    <div class="habilidades">
-        <div class="row">
-            <div class="container col-8">
-               <h2 class="texto-rojo">// SKILLS</h2>
-                <div class="barra barra-python">
-                    <p class="texto-barra">PYTHON</p>
-                </div>
-                <div class="barra barra-html">
-                    <p class="texto-barra">HTML</p>
-                </div>
-                <div class="barra barra-css">
-                    <p class="texto-barra">CSS</p>
-                </div>
-                <div class="barra barra-js">
-                    <p class="texto-barra">JS</p>
-                </div>
-                <div class="barra barra-php">
-                    <p class="texto-barra">PHP</p>
-                </div>
+            <div class="barra barra-css">
+                <p class="texto-barra">CSS</p>
+            </div>
+            <div class="barra barra-js">
+                <p class="texto-barra">JS</p>
+            </div>
+            <div class="barra barra-php">
+                <p class="texto-barra">PHP</p>
             </div>
         </div>
     </div>
 
-    <!-- fin habilidades-->
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="texto-rojo">// EXPERIENCIA</h2>
+            <h2><strong>Google</strong></h2>
+            <h5>2013 - 2014</h5>
+            <h5><strong>Frontend developer / php programmer</strong></h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id tempore debitis beatae nemo hic, perspiciatis voluptatem inventore. Officia cum pariatur harum, natus modi saepe quasi expedita dolor repellendus, ratione fugit.</p>
 
-    <!--idiomas-->
-    <div class="idiomas">
-        <div class="row">
-            <div class="container col-8">
-                <h2 class="texto-rojo">// IDIOMAS</h2>
-                <h3 class="texto-negro">Inglés ⭒⭒⭑⭑⭑</h3>
-                <h3 class="texto-negro">Español ⭑⭑⭑⭑⭑</h3>
-            </div>    
+            <h2><strong>Google</strong></h2>
+            <h5>2013 - 2014</h5>
+            <h5><strong>Frontend developer / php programmer</strong></h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id tempore debitis beatae nemo hic, perspiciatis voluptatem inventore. Officia cum pariatur harum, natus modi saepe quasi expedita dolor repellendus, ratione fugit.</p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="texto-rojo">// CONTACTO</h2>
+            <ul>
+                <li><b>Email:</b>me@aol.com</li>
+                <li><b>Skype:</b>miguel</li>
+                <li><b>Twitter:</b>Miguel</li>
+                <li><b>Facebook:</b>Miguel</li>
+            </ul>
         </div>
     </div>
 
-    <!--fin idiomas-->
+    <div class="col-md-6">
+        <h2 class="texto-rojo">// IDIOMAS</h2>
+        <h3 class="texto-negro">Inglés ⭒⭒⭑⭑⭑</h3>
+        <h3 class="texto-negro">Español ⭑⭑⭑⭑⭑</h3>
 
-    <!--idiomas-->
-    <div class="idiomas">
-        <div class="row">
-            <div class="container col-8">
-                <h2 class="texto-rojo">// HOBBIES</h2>
-                <h4 class="fotografia">Fotografía</h4>
-                <h4 class="deporte">Deporte</h4>
-                <h4 class="musica">Música</h4>
-            </div>    
-        </div>
     </div>
 
-    <!--fin idiomas-->
+    <div class="col-md-6">
+        <h2 class="texto-rojo">// HOBBIES</h2>
+        <h4 class="fotografia">Fotografía</h4>
+        <h4 class="deporte">Deporte</h4>
+        <h4 class="musica">Música</h4>
+
+    </div>
 
 </body>
 
