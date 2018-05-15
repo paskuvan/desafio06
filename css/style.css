@@ -95,7 +95,12 @@ body {
 
 
 /* media queries 480px*/
-@media(max-width: 480px){
+@media(min-width: 480px){
+
+  .col-md-5 {
+    width: 100%;
+  }
+  
   .header p {
   font-size: 17px;
   }
